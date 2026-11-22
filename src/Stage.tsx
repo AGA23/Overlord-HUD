@@ -3,8 +3,7 @@ import {StageBase, StageResponse, InitialData, Message} from "@chub-ai/stages-ts
 import {LoadResponse} from "@chub-ai/stages-ts/dist/types/load";
 
 /***
- The type that this stage persists message-level state in.
- This is primarily for readability, and not enforced.
+
 
  @description This type is saved in the database after each message,
   which makes it ideal for storing things like positions and statuses,
