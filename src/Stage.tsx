@@ -7,7 +7,7 @@ import {LoadResponse} from "@chub-ai/stages-ts/dist/types/load";
 
  @description This type is saved in the database after each message,
   which makes it ideal for storing things like positions and statuses,
-  but not for things like history, which is best managed ephemerally
+  but  for things like history, which is best managed ephemerally
   in the internal stae of the Stage class itself.
  ***/
 type MessageStateType = any;
